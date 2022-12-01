@@ -40,11 +40,12 @@ body{
 
 
 .sadrzaj{
-    margin-top: 2rem;
+
     background-color: rgb(255, 255, 255);
     height: 80vh;
-    width: 60vw;
-    margin-left: 20vw;
+    width: 50rem;
+    margin: 0 auto;
+    margin-top: 2rem;
     padding: 2px;
     display: flex;
     flex-direction: column;
@@ -68,6 +69,9 @@ body{
 .slika{
     background-color: rgb(0, 0, 0);
     height: 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .slike{
@@ -76,41 +80,45 @@ body{
     display: flex;
     align-content: space-between;
     gap: 2px;
+    
 }
 
 .slicica{
     background-color: black;
     width: 10%;
-    border: 2px solid white
+    border: 2px solid white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .slika1{
-    background-image: url(slika1.png);
+    background-image: url(./slike/slika1.jpg);
 }
 .slika2{
-    background-image: url(slika2.png);
+    background-image: url(./slike/slika2.jpg);
 }
 .slika3{
-    background-image: url(slika3.png);   
+    background-image: url(./slike/slika3.jpg);   
 }
 .slika4{
-    background-image: url(slika4.png);
+    background-image: url(./slike/slika4.jpg);
 }
 .slika5{
-    background-image: url(slika5.png);
+    background-image: url(./slike/slika5.jpg);
 }
 .slika6{
-    background-image: url(slika6.png);
+    background-image: url(./slike/slika6.jpg);
 }
 .slika7{
-    background-image: url(slika7.png);
+    background-image: url(./slike/slika7.jpg);
 }
 .slika8{
-    background-image: url(slika8.png);
+    background-image: url(./slike/slika8.jpg);
 }
 .slika9{
-    background-image: url(slika9.png);
+    background-image: url(./slike/slika9.jpg);
 }
 .slika10{
-    background-image: url(slika10.png);   
+    background-image: url(./slike/slika10.jpg);   
 }
