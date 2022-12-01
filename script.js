@@ -101,3 +101,14 @@ document.getElementById("s10").addEventListener("click", ()=>{
     tekstPolje.innerHTML = tekst[9];
     klasa = "slika10";
 })
+
+
+
+
+document.getElementById("uputstvo").addEventListener("click", ()=>{
+    window.location.href = "./stranice/Uputstvo/uputstvo.html"
+})
+
+document.getElementById("autor").addEventListener("click", ()=>{
+    window.location.href = "./stranice/OMeni/omeni.html"
+})
