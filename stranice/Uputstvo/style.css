@@ -48,7 +48,9 @@ body{
     margin-top: 2rem;
     padding: 2px;
     display: flex;
-    flex-direction: column;
-    gap: 2px;
+    flex-direction: row;
+    justify-content: left;
 
+    gap: 2px;
+    padding: 2rem;
 }
